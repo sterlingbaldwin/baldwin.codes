@@ -6,9 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-var wladder = require('./routes/wladder.js');
-var projects = require('./routes/projects');
+// var users = require('./routes/users');
+// var wladder = require('./routes/wladder.js');
+// var projects = require('./routes/projects');
 var app = express();
 
 // view engine setup
@@ -25,8 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.get('/wladder', wladder);
-app.use('/projects', projects);
+// app.get('/wladder', wladder);
+// app.use('/projects', projects);
 
 
 // catch 404 and forward to error handler
