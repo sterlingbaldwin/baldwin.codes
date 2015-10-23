@@ -21,8 +21,7 @@ div.projects {
 }
 
 iframe {
-  margin: 0 auto 0 auto;
-  padding:2em 2em 2em 2em;
+  margin: auto;
   border: solid black 3px; 
   border-radius:3em;
 }
