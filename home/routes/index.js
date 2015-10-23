@@ -7,10 +7,5 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Baldwin codes' });
 });
 
-/* GET projects page. */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Sterling\'s Projects' });
-});
-
 
 module.exports = router;
