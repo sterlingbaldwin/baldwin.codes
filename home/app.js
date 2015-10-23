@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.get('/projects', routes);
+app.get('/wladder', routes);
 // app.use('/users', users);
 // app.get('/projects', routes);
 // app.get('/wladder', wladder);
