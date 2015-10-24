@@ -21,8 +21,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.get('/projects', routes);
-app.get('/wladder', routes);
+// app.get('/projects', routes);
+// app.get('/wladder', routes);
+// app.get('/about', routes);
+// app.get('/robots', routes);
+// app.get('/blog', routes);
 
 
 // catch 404 and forward to error handler
