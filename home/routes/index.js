@@ -30,7 +30,7 @@ router.get('/robots', function(req, res, next) {
   });
 });
 
-/* GET blog. */
+/* GET Blog. */
 router.get('/blog', function(req, res, next) {
   res.render('blog', { 
   	title: 'Blog' 
