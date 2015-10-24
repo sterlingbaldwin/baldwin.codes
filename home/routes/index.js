@@ -4,27 +4,37 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Baldwin codes' });
+  res.render('index', { 
+  	title: 'Baldwin codes' 
+  });
 });
 
 /* GET projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Projects' });
+  res.render('projects', { 
+  	title: 'Projects' 
+  });
 });
 
-/* GET wladder page. */
+/* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About' });
+  res.render('about', { 
+  	title: 'About' 
+  });
 });
 
-/* GET wladder page. */
+/* GET robots page. */
 router.get('/robots', function(req, res, next) {
-  res.render('robots', { title: 'Robot Projects' });
+  res.render('robots', { 
+  	title: 'Robot Projects' 
+  });
 });
 
-/* GET wladder page. */
+/* GET blog. */
 router.get('/blog', function(req, res, next) {
-  res.render('blog', { title: 'Blog' });
+  res.render('blog', { 
+  	title: 'Blog' 
+  });
 });
 
 module.exports = router;
